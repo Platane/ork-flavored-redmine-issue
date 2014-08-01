@@ -1,0 +1,20 @@
+{
+  "name": "ork-flavored-redmine-issue",
+  "version": "1.0.0",
+
+  "description": "detect status change in redmine issues and play a sound",
+  "main": "run.js",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/--.git"
+  },
+
+  "author": "Platane <me@platane.me>",
+  "license": "MIT",
+
+  "dependencies": {
+    "request" : "~2",
+    "promise" : "*"
+  }
+}

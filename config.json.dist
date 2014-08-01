@@ -1,0 +1,19 @@
+{
+	"url" : "http://www.redmine.org/issues.json",
+	"requestParams" : {
+		"auth" : {
+			"user" : "loktar",
+			"pass" : "orkorkork"
+		},
+		"strictSSL" : true,
+		"headers": {
+        	"X-Redmine-API-Key": "<api-key>"
+    	}
+	},
+
+	"delay" : 30000,
+
+	"soundTable" : {
+		"Resolved" : "Closed"
+	} 
+}
